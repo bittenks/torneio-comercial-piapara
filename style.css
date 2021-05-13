@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+
+@font-face {
+    font-family: 'star_jediregular';
+    src: url('starjedi-webfont.woff2') format('woff2'),
+         url('starjedi-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("https://images.unsplash.com/photo-1516668633535-2864d07e6281?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1189&q=80");
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Alfa Slab One', cursive;
+    margin: 0;
+}
+
+a{
+    color: rgb(160, 160, 160);
+    text-decoration: none;
+}
+
+h1 {
+    color: #f0ebcc;
+    font-weight: normal;
+    font-size: 4rem;
+    margin-top: 5rem;
+}
+
+h5 {
+    color: #3d84b8;
+    font-weight: normal;
+    font-size: 1.2rem;
+    margin-top: 1.2rem;
+    
+}
+h6{
+    color: rgb(160, 160, 160);
+}
+
+
+.btn-outline-primary {
+    color: #233e8b;
+    border-color: #335ac5;
+}
+button{
+    margin-top: 10rem;
+    font-size: 5rem;
+}
+
+.btn{
+    font-size: 2rem;
+}
+
+.rodape{
+    margin-top: 2rem;
+}
+
+.countdown-container {
+    color: #ffc996;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.big-text {
+    font-weight: bold;
+    font-size: 6rem;
+    line-height: 1;
+    margin: 1rem 2rem;
+}
+
+.countdown-el {
+    text-align: center;
+}
+
+.countdown-el span {
+    font-size: 1.3rem;
+}
+
+@media (max-width: 900px) {
+    :root{
+        font-size: 62.5%;
+    }
+}
+
+@media (max-width: 900px) {
+    :root{
+        font-size: 62.5%;
+        text-align: center;
+    }
+}
